@@ -51,24 +51,8 @@ header("Location: $targetUrl");
 exit;
 
 
-Tüm kod yapısı yapay zekâ tarafından üretilip geliştirici tarafından düzenlenmiştir.
+Kod yapısı yapay zekâ tarafından üretilip geliştirici tarafından düzenlenmiştir.
 
-🚀 Kurulum
-1) Dosyaları sunucuya yükleyin
-
-Apache + PHP 7/8 ortamı yeterlidir.
-
-2) Veritabanını içe aktarın
-db/database.sql
-
-3) Config bağlantı ayarını yapın
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "qr_director";
-
-4) Tarayıcıdan açın
-http://localhost/qr-director/
 
 🛠️ Admin Panel (Varsa)
 
@@ -79,5 +63,6 @@ Eğer senin projende giriş paneli varsa şu şekilde yazabilirim:
 /dashboard.php → QR kod listesi
 
 /edit.php → URL güncelleme
+
 
 
